@@ -44,7 +44,7 @@ android {
          if(System.getenv()["CI"]){
              versionCode = System.getenv()["BUILD_NUMBER"].toInteger()
          }else {
-             versionCode = flutterVersionCode.toInteger()
+             versionCode = 10
          }
         versionName flutterVersionName
     }
