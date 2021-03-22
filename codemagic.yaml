@@ -15,4 +15,6 @@ workflows:
     scripts:
       - name: Build Android
         script: |
+          cd android
+          gradle wrapper
           ls
