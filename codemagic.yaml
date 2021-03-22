@@ -16,4 +16,5 @@ workflows:
       - name: Build Android
         script: |
           echo $FCI_KEYSTORE | base64 --decode > $FCI_KEYSTORE_PATH
-          cd android && ./gradlew assembleRelease
+          cd android 
+          ls
